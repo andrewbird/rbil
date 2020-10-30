@@ -176,3 +176,5 @@ epub_exclude_files = ['search.html']
 with open("test2.rs_", "w") as f:
     f.write("test2 title\n")
     f.write("-----------\n")
+
+import xml.etree.ElementTree as xml
