@@ -171,3 +171,8 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+# create a doc file on the fly?
+with open("test2.rs_", "w") as f:
+    f.write("test2 title\n")
+    f.write("-----------\n")
